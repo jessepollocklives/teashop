@@ -1,0 +1,137 @@
+body {
+  background-color: #000000;
+  color: rgb(255, 245, 238);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  opacity: 0.9;
+  width: 100%;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Header and Main Navigation */
+
+header {
+  align-items: center;
+  background-color: #000000;
+  border-bottom: solid 1px rgb(255, 245, 238);
+  display: flex;
+  justify-content: space-between;
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#logo {
+  opacity: 0.7;
+  padding-left: 10px;
+}
+
+.main-nav li {
+  display: inline;
+  padding-right: 20px;
+}
+
+a {
+  color: rgb(255, 245, 238);
+  opacity: 0.7;
+}
+
+/* Hero */
+
+.hero {
+  background-image: url(../images/img-mission-background.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom: solid 1px rgb(255, 245, 238);
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  justify-content: center;
+}
+
+.hero-text {
+  background-color: #000000;
+  text-align: center;
+  opacity: 0.9;
+  width: 100%;
+}
+
+.hero-text h2, .hero-text h4 {
+  opacity: 0.7;
+}
+
+/* Tea of the Month */
+
+.tea-of-the-month {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  opacity: 0.7;
+  width: 80%;
+}
+
+.tea-of-the-month-header {
+  margin: 0 auto;
+  opacity: 0.7;
+  text-align: center;
+  width: 100%;
+}
+
+.tea-of-the-month-item img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea-of-the-month-item h4 {
+  text-align: center;
+  margin: 5px 0 15px;
+  width: 300px;
+}
+
+/* Locations */
+
+.locations {
+  align-items: center;
+  background-image: url(../images/img-locations-background.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  height: 500px;
+  justify-content: space-evenly;
+  margin: 2% auto 0;
+  opacity: 0.7;
+  width: 80%;
+}
+
+.locations-item {
+  background-color: #000000;
+  height: 300px;
+  opacity: 0.9;
+  text-align: center;
+  width: 300px;
+}
+
+/* Contact */
+
+.contact-footer {
+  opacity: 0.7;
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  font-size: 14px;
+  margin: 2% auto 2%;
+  opacity: 0.7;
+  text-align: center;
+}
